@@ -1,0 +1,97 @@
+@import url('reset.css');
+
+.wrap{
+  width: 1024px;
+  height: 600px;
+  background: #B3AC45;
+  position: relative;
+  margin: 0 auto;
+}
+
+.all{
+  width: 950px;
+  height: 600px;
+  position: absolute;
+  background: #FCFCFA;
+  left: 37px;
+}
+
+.top{
+  width: 950px;
+  height: 100px;
+  position: relative;
+  background: rgba(249,239,197,0.8);
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top a{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  text-decoration: none;
+} 
+
+.top a > img{
+  width: 100px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.top a > p{
+  font-size: 80px;
+  font-family: Dancing Script;
+  color: #aa7437;
+}
+
+.top .moreColor{
+  color: #aa7437;
+  font-size: 25px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+
+.content img{
+  width: 150px;
+  height: 450px;
+}
+
+.content article{
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content article section{
+  padding: 20px;
+}
+
+.content h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.content p{
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.content section > a{
+  margin-right: 10px;
+  color: #aa7437;
+}
+
